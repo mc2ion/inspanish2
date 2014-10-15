@@ -165,9 +165,8 @@ body {
 .images_1_of_4 h4 a{
 	display:inline-block;
 	color: #353535;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	font-family: 'texgyreadventorregular';
-	text-transform: uppercase;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -185,7 +184,7 @@ body {
 	margin: 0 auto;
 }
 .bg{
-	background: #4E494A;
+	background: #5C2E7A;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -726,6 +725,11 @@ body {
 
 /***** Media Quries *****/
 @media only screen and (max-width: 1440px) and (min-width: 240px)  {
+	.header_bg1 {
+		background: url('../images/slider_bg1440x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
+	
 	.wrap{
 		width:95%;
 	}
@@ -737,6 +741,11 @@ body {
 @media only screen and (max-width: 1280px) {
 }
 @media only screen and (max-width: 1024px) {
+	.header_bg1 {
+		background: url('../images/slider_bg1024x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
+	
 	.images_1_of_4 h4 a {
 		font-size: 1.2em;
 	}
@@ -747,7 +756,24 @@ body {
 		font-size: 2em;
 	}
 }
+
+@media only screen and (max-width: 867px) {
+	.header_bg1 {
+		background: url('../images/slider_bg867x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
+}
+
 @media only screen and (max-width: 768px) {
+	.header_bg1 {
+		background: url('../images/slider_bg750x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
+	
+	.navbar-left {
+		float: none !important;
+	}
+
 	.logo{
 		text-align:center;
 	}
@@ -820,6 +846,11 @@ body {
 	}
 }
 @media only screen and (max-width: 640px){
+	.header_bg1 {
+		background: url('../images/slider_bg640x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
+
 	.company_ad{
 		margin-left: 0;
 	}
@@ -831,6 +862,11 @@ body {
 	}
 }
 @media only screen and (max-width: 480px) {
+	.header_bg1 {
+		background: url('../images/slider_bg480x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
+	
 	.images_1_of_4 h4 {
 		margin: 20px 0 10px;
 	}
@@ -860,6 +896,11 @@ body {
 	}
 }
 @media only screen and (max-width: 320px) {
+	.header_bg1 {
+		background: url('../images/slider_bg320x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
+
 	.main {
 		padding: 8% 2%;
 	}

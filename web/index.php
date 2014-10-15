@@ -32,7 +32,7 @@ include('web/common.php');
 
 			});
 		</script>
-<link href="web/css/owl.carousel.css" rel="stylesheet"/>
+ <!--<link href="web/css/owl.carousel.css" rel="stylesheet"/>
 <script src="web/js/owl.carousel.js"></script>
 		<script>
 			$(document).ready(function() {
@@ -49,7 +49,7 @@ include('web/common.php');
 					paginationNumbers : false,
 				});
 			});
-		</script>
+		</script>-->
 <link rel="stylesheet" href="web/fonts/css/font-awesome.min.css"/>
 </head>
 <body>
@@ -88,26 +88,26 @@ include('web/common.php');
 	<div class="container">
 		<div class="main row">
 			<div class="col-md-3 images_1_of_4 text-center">
-				<span class="bg"><i class="fa fa-globe"></i></span>
-				<h4><a href="#">Sed Porta Dolor</a></h4>
+				<span class="bg"><i class="fa fa-book"></i></span>
+				<h4><a href="#">School Teaching</a></h4>
 				<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 1500s.</p>
 				<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-laptop"></i></span>
-				<h4><a href="#">Lorem Ipsum is</a></h4>
+				<span class="bg"><i class="fa fa-language"></i></span>
+				<h4><a href="#">Certified Translations</a></h4>
 				<p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 				<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-cog"></i></span>
-				<h4><a href="#">Sed Porta Dolor</a></h4>
+				<span class="bg"><i class="fa fa-home"></i></span>
+				<h4><a href="#">Home Tutoring</a></h4>
 				<p class="para">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32  by H. Rackham.</p>
 				<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>
 			</div>		
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-shield"></i> </span>
-				<h4><a href="#">Contrary  belief</a></h4>
+				<span class="bg"><i class="fa fa-graduation-cap"></i> </span>
+				<h4><a href="#">Adult Classes</a></h4>
 				<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 				<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>
 			</div>	
@@ -126,7 +126,7 @@ include('web/common.php');
 				<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>
 			</div>
 		</div>
-				<!----start-img-cursual---->
+				<!----start-img-cursual----
 					<div id="owl-demo" class="owl-carousel text-center">
 						<div class="item">
 							<div class="cau_left">
@@ -261,7 +261,7 @@ include('web/common.php');
 							</div>
 						</div>
 					</div>
-					<!----//End-img-cursual---->
+					----//End-img-cursual---->
 	</div>
 </div>
 <div class="footer_bg"><!-- start footer -->
