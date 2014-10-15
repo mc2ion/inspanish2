@@ -64,7 +64,7 @@ include('web/common.php');
 				<h3 class="da-link"><a href="./about.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
 			<div class="da-slide">
-				<h2>online educations</h2>
+				<h2>online education</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
 				<h3 class="da-link"><a href="./about.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
@@ -74,7 +74,7 @@ include('web/common.php');
 				<h3 class="da-link"><a href="./about.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
 			<div class="da-slide">
-				<h2>online educations</h2>
+				<h2>online education</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
 				<h3 class="da-link"><a href="./about.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
@@ -124,7 +124,7 @@ include('web/common.php');
             <div class="col-md-6 content_right">
                 <i class="fa fa-phone large"></i> <span style="font-size: 16px;">5555-55555</span><br /><br />
                 <i class="fa fa-envelope medium"></i> <span style="font-size: 16px;">email@domain.com</span><br /><br />
-                <i class="fa fa-home large "></i> <span style="font-size: 16px;">400 Atlantic Ave, Montreal, QC H2V 1A5, Canada</span><br />
+                <i class="fa fa-map-marker large " style="padding-left:4px;"></i> <span style="font-size: 16px;">400 Atlantic Ave, Montreal, QC H2V 1A5, Canada</span><br />
                 <a href="./contact.php" class="fa-btn btn-1 btn-1e">read more</a>
 			</div>
 		</div>

@@ -37,13 +37,14 @@ include('web/common.php');
 	<div class="container">
 		<div class="main row">
 			    <div class="col-md-4 company_ad">
-				    <h2>find Address :</h2>
-      				<address>
-	                    <p><i class="fa fa-location-arrow large "></i> <span style="font-size: 16px;">400 Atlantic Ave, Montreal, QC H2V 1A5, Canada</span></p>
-                    	<p><i class="fa fa-phone large"></i> <span style="font-size: 16px;">5555-55555</span></p>
-                        <p><i class="fa fa-envelope medium"></i> <span style="font-size: 16px;">email@domain.com</span></p>
-                        <p><i class="fa fa-facebook large"></i><a href="#"></a><i class="fa fa-twitter large"></i></p>
-                   	</address>
+				    <h2>Find Address :</h2>
+					<address>
+						 <p><i class="fa fa-map-marker large "></i> <span class="address">500 Lorem Ipsum Dolor Sit,</span></p>
+						 <p class="address">22-56-2-9 Sit Amet, Lorem,</p>
+						 <p class="address">USA</p>
+				   		<p><i class="fa fa-phone large"></i> (00) 222 666 444</p>
+				 	 	<p><i class="fa fa-envelope medium"></i> info@mycompany.com</p>
+				   	</address>
 				</div>
 				<div class="col-md-8">
 				  <div class="contact-form">
