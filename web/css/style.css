@@ -18,7 +18,7 @@ body {
 	background: #ffffff;
 }
 .header_bg1 {
-	background: url('../images/slider_bg.png') no-repeat  left top;
+	background: url('../images/slider_bg1440x150.png') no-repeat  left top;
 	background-size: 100%;
 }
 .logo h1 a{
@@ -725,20 +725,27 @@ body {
 
 /***** Media Quries *****/
 @media only screen and (max-width: 1440px) and (min-width: 240px)  {
-	.header_bg1 {
-		background: url('../images/slider_bg1440x150.png') no-repeat  left top;
-		background-size: 100%;
-	}
-	
 	.wrap{
 		width:95%;
 	}
 }
 @media only screen and (max-width: 1440px) {
+	.header_bg1 {
+		background: url('../images/slider_bg1440x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
 }
 @media only screen and (max-width: 1366px) {
+	.header_bg1 {
+		background: url('../images/slider_bg1366x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
 }
 @media only screen and (max-width: 1280px) {
+	.header_bg1 {
+		background: url('../images/slider_bg1280x150.png') no-repeat  left top;
+		background-size: 100%;
+	}
 }
 @media only screen and (max-width: 1024px) {
 	.header_bg1 {
