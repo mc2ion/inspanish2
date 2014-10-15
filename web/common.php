@@ -7,11 +7,13 @@
 
 function my_header($section=''){
     $out = '<div class="container">
-	<div class="row header">
-		<div class="logo navbar-left">
-			<h1><a href="index.php"><img class="img-logo" src="web/images/logo.png" alt="In Spanish"/> </a></h1>
-		</div>
-	</div>
+        	<div class="row header">
+                <div class="header_bg1">
+        		  <div class="logo navbar-left">
+        			<h1><a href="index.php"><img class="img-logo" src="web/images/logo.png" alt="In Spanish"/> </a></h1>
+        		  </div>
+        	   </div>
+            </div>
 	<div class="row h_menu">
 		<nav class="navbar navbar-default navbar-left" role="navigation">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -47,6 +49,19 @@ function my_header($section=''){
 	</div>
 	<div class="clearfix"></div>
 </div>';
+    return $out;
+}
+
+function my_footer(){
+    $out = "<div class=\"footer_bg\"><!-- start footer -->
+        	<div class=\"container\">
+        		<div class=\"row  footer\">
+        			<div class=\"copy text-center\">
+        				<p class=\"link\"><span>&#169; All rights reserved | In Spanish</span></p>
+        			</div>
+        		</div>
+        	</div>
+        </div>";
     return $out;
 }
 
