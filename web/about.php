@@ -36,9 +36,9 @@ include('web/common.php');
 		</div>
 	</div>
 </div><!-- end main -->
-<div class="main_btm"><!-- start main_btm -->
+<div class="main_bg"><!-- start main_btm -->
 	<div class="container">
-		<div class="main row">
+		<div class="about row">
 			<div class="col-md-6 content_left">
 				<img src="web/images/pic1.jpg" alt="" class="img-responsive">
 			</div>
