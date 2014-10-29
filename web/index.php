@@ -4,11 +4,10 @@ include('web/common.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>In Spanish School</title>
+<?php   echo my_title(); ?>
 <!-- Bootstrap -->
 <link href="web/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="web/css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link rel="icon" href="web/images/favicon.ico"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!--[if lt IE 9]>
@@ -86,29 +85,30 @@ include('web/common.php');
 	<div class="container">
 		<div class="main row">
 			<div class="col-md-3 images_1_of_4 text-center">
-				<span class="bg"><i class="fa fa-book"></i></span>
-				<h4><a href="#">School Teaching</a></h4>
-				<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 1500s.</p>
-				<a href="./services.php" class="fa-btn btn-1 btn-1e">read more</a>
-			</div>
-			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-language"></i></span>
-				<h4><a href="#">Certified Translations</a></h4>
-				<p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				<a href="./services.php" class="fa-btn btn-1 btn-1e">read more</a>
+				<span class="bg"><i class="fa fa-child"></i></span>
+				<h4><a href="#">Kids</a></h4>
+				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
 				<span class="bg"><i class="fa fa-home"></i></span>
-				<h4><a href="#">Home Tutoring</a></h4>
-				<p class="para">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32  by H. Rackham.</p>
-				<a href="./services.php" class="fa-btn btn-1 btn-1e">read more</a>
+				<h4><a href="#">Tutoring</a></h4>
+				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
+			</div>
+			<div class="col-md-3 images_1_of_4 bg1 text-center">
+				<span class="bg"><i class="fa fa-graduation-cap"></i></span>
+				<h4><a href="#">Schools</a></h4>
+				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
 			</div>		
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-graduation-cap"></i> </span>
-				<h4><a href="#">Adult Classes</a></h4>
-				<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-				<a href="./services.php" class="fa-btn btn-1 btn-1e">read more</a>
-			</div>	
+				<span class="bg"><i class="fa fa-male"></i> </span>
+				<h4><a href="#">Adults</a></h4>
+				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
+			</div>		
+			<div class="col-md-3 images_1_of_4 bg1 text-center">
+				<span class="bg"><i class="fa fa-briefcase"></i> </span>
+				<h4><a href="#">Businesses</a></h4>
+				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
+			</div>		
 		</div>
 	</div>
 </div><!-- end main -->
@@ -121,11 +121,10 @@ include('web/common.php');
                     <div>Do you have any question?</div>
                 </div>
             </div>
-            <div class="col-md-6 content_right">
-                <i class="fa fa-phone large"></i> <span style="font-size: 16px;">5555-55555</span><br /><br />
-                <i class="fa fa-envelope medium"></i> <span style="font-size: 16px;">email@domain.com</span><br /><br />
-                <i class="fa fa-map-marker large " style="padding-left:4px;"></i> <span style="font-size: 16px;">400 Atlantic Ave, Montreal, QC H2V 1A5, Canada</span><br />
-                <a href="./contact.php" class="fa-btn btn-1 btn-1e">read more</a>
+            <div class="col-md-6 content_right"><br /><br />
+                <i class="fa fa-map-marker large"></i> <span style="font-size: 16px;">Seattle, US</span><br /><br />
+                <i class="fa fa-phone large"></i> <span style="font-size: 16px;">425-8025284</span><br /><br />
+                <i class="fa fa-envelope medium"></i> <span style="font-size: 16px;">inspanish.wa@gmail.com</span><br /><br />
 			</div>
 		</div>
 				<!----start-img-cursual----

@@ -11,6 +11,12 @@ elseif ($page_name=='about.php') {
 elseif ($page_name=='services.php') {
 	include $browser_t.'/services.php';
 	}
+elseif ($page_name=='careers.php') {
+	include $browser_t.'/careers.php';
+	}
+elseif ($page_name=='calendars.php') {
+	include $browser_t.'/calendars.php';
+	}
 elseif ($page_name=='contact.php') {
 	include $browser_t.'/contact.php';
 	}

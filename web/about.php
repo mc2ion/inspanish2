@@ -4,11 +4,10 @@ include('web/common.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>In Spanish School</title>
+<?php   echo my_title(); ?>
 <!-- Bootstrap -->
 <link href="web/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="web/css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link rel="icon" href="web/images/favicon.ico"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!--[if lt IE 9]>

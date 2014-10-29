@@ -4,11 +4,10 @@ include('web/common.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>In Spanish School</title>
+<?php   echo my_title(); ?>
 <!-- Bootstrap -->
 <link href="web/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="web/css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link rel="icon" href="web/images/favicon.ico"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!--[if lt IE 9]>
@@ -26,7 +25,7 @@ include('web/common.php');
 </head>
 <body>
 <?php   echo my_header('contact'); ?>
-<div class="main_bg"><!-- start main -->
+<!--<div class="main_bg"> start main 
 	<div class="container">
 		<div class="main row">
 			<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="font-family: 'Open Sans', sans-serif;color:#555555;text-shadow:0 1px 0 #ffffff; text-align:left;font-size:12px;padding: 5px;">View Larger Map</a></small>
@@ -39,11 +38,9 @@ include('web/common.php');
 			    <div class="col-md-4 company_ad">
 				    <h2>Find Address :</h2>
 					<address>
-						 <p><i class="fa fa-map-marker large "></i> <span class="address">500 Lorem Ipsum Dolor Sit,</span></p>
-						 <p class="address">22-56-2-9 Sit Amet, Lorem,</p>
-						 <p class="address">USA</p>
-				   		<p><i class="fa fa-phone large"></i> (00) 222 666 444</p>
-				 	 	<p><i class="fa fa-envelope medium"></i> info@mycompany.com</p>
+						 <p><i class="fa fa-map-marker large "></i> <span class="address">Seattle, US</span></p>
+				   		<p><i class="fa fa-phone large"></i> 425-8025284</p>
+				 	 	<p><i class="fa fa-envelope medium"></i> inspanish.wa@gmail.com</p>
 				   	</address>
 				</div>
 				<div class="col-md-8">

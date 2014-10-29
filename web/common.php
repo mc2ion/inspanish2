@@ -31,11 +31,15 @@ function my_header($section=''){
               $class = ""; if ($section == "index") $class = "class = 'active'";
 	          $out .= "<li {$class}><a href=\"index.php\">Home</a></li>";
 		      $class = ""; if ($section == "about") $class = "class = 'active'";
-		      $out .=  "<li {$class}><a href=\"about.php\">About Us</a></li>";
+		      $out .=  "<li {$class}><a href=\"about.php\">About us</a></li>";
 		      $class = ""; if ($section == "services") $class = "class = 'active'";
-		      $out .=  "<li {$class}><a href=\"services.php\">Services</a></li>";
+		      $out .=  "<li {$class}><a href=\"services.php\">Lessons</a></li>";
+		      $class = ""; if ($section == "calendars") $class = "class = 'active'";
+		      $out .=  "<li {$class}><a href=\"calendars.php\">Calendars</a></li>";
+		      $class = ""; if ($section == "careers") $class = "class = 'active'";
+		      $out .=  "<li {$class}><a href=\"careers.php\">Careers</a></li>";
 		      $class = ""; if ($section == "contact") $class = "class = 'active'";
-              $out .=  "<li {$class}><a href=\"contact.php\">Contact Us</a></li>";
+              $out .=  "<li {$class}><a href=\"contact.php\">Contact us</a></li>";
 		      $out .= '</ul>
 		    </div><!-- /.navbar-collapse -->
 		    <!-- start soc_icons -->
@@ -44,6 +48,7 @@ function my_header($section=''){
 			<ul class="list-unstyled text-center">
 				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 			</ul>	
 		</div>
 	</div>
@@ -57,12 +62,18 @@ function my_footer(){
         	<div class=\"container\">
         		<div class=\"row  footer\">
         			<div class=\"copy text-center\">
-        				<p class=\"link\"><span>&#169; All rights reserved | In Spanish</span></p>
+        				<p class=\"link\"><span>&#169; All rights reserved | In Spanish Inc.</span></p>
         			</div>
         		</div>
         	</div>
         </div>";
     return $out;
+}
+
+function my_title(){
+	$out = "<title>In Spanish teaching and tutoring</title>
+			<link rel=\"icon\" href=\"web/images/favicon.ico\"/>";
+	return $out;
 }
 
 ?>
