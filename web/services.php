@@ -31,7 +31,7 @@ include('web/common.php');
 			<h2>Lessons</h2>
 			<div class="technology_list">
 				<div class="col-md-2 images_1_of_4 bg1">
-					<span class="bg"><i class="fa fa-child"></i> </span>
+					<span class="bg"><i class="fa fa-slideshare"></i> </span>
 				</div>
                 <div class="col-md-10 tech_para">
 			 	   <h4>Kids</h4>
@@ -59,9 +59,9 @@ include('web/common.php');
 				</div>
 				<div class="clearfix"></div>
 			</div>
-			<div class="technology_list2">
+			<div class="technology_list1">
 				<div class="col-md-2 images_1_of_4 bg1">
-					<span class="bg"><i class="fa fa-male"></i> </span>
+					<span class="bg"><i class="fa fa-users"></i> </span>
 				</div>
 				<div class="col-md-10 tech_para">
 				    <h4>Adults</h4>

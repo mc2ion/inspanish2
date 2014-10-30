@@ -54,8 +54,7 @@ include('web/common.php');
 <body>
 <?php   echo my_header('index'); ?>
 <div class="slider_bg"><!-- start slider -->
-    <div class="bgcolor">
-	<div class="container">
+   	<div class="container">
 		<div id="da-slider" class="da-slider text-center">
 			<div class="da-slide">
 				<h2>education portal</h2>
@@ -79,13 +78,12 @@ include('web/common.php');
 			</div>
 	   </div>
 	</div>
-    </div>
 </div><!-- end slider -->
 <div class="zigzag"><!-- start main -->
 	<div class="container">
 		<div class="main row">
 			<div class="col-md-3 images_1_of_4 text-center">
-				<span class="bg"><i class="fa fa-child"></i></span>
+				<span class="bg"><i class="fa fa-slideshare"></i></span>
 				<h4><a href="#">Kids</a></h4>
 				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
 			</div>
@@ -100,7 +98,7 @@ include('web/common.php');
 				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
 			</div>		
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-male"></i> </span>
+				<span class="bg"><i class="fa fa-users"></i> </span>
 				<h4><a href="#">Adults</a></h4>
 				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
 			</div>		
