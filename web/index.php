@@ -24,9 +24,9 @@ include('web/common.php');
 	<script type="text/javascript">
 			$(function() {
 				$('#da-slider').cslider({
-					autoplay : false,
+					autoplay : true,
 					bgincrement : 450,
-                    interval    : 15000  
+                    interval    : 6000 
 				});
 
 			});
@@ -56,29 +56,29 @@ include('web/common.php');
 <div class="slider_bg"><!-- start slider -->
    	<div class="container">
 		<div id="da-slider" class="da-slider text-center">
-			<div class="da-slide">
-				<h2>education portal</h2>
+			<div class="da-slide da-slide-toleft" style="background:url(web/images/wall7.jpg) no-repeat;">
+				<h2>education portal 1</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
-				<h3 class="da-link"><a href="./about.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
+				<h3 class="da-link"><a href="single-page.html" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
-			<div class="da-slide">
-				<h2>online education</h2>
+			<div class="da-slide da-slide-fromright da-slide-current" style="background:url(web/images/wall6.jpeg) no-repeat;background-position-y:6%;">
+				<h2>online educations 2</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
-				<h3 class="da-link"><a href="./about.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
+				<h3 class="da-link"><a href="single-page.html" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
-			<div class="da-slide">
-				<h2>education portal</h2>
+			<div class="da-slide da-slide-toleft" style="background:url(web/images/wall5.jpg) no-repeat;">
+				<h2>education portal 3</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
-				<h3 class="da-link"><a href="./about.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
+				<h3 class="da-link"><a href="single-page.html" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
-			<div class="da-slide">
-				<h2>online education</h2>
+			<div class="da-slide da-slide-toleft" style="background:url(web/images/wall2.jpg) no-repeat;background-position-y:60%;background-position-x:12%;">
+				<h2>online educations 4</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
-				<h3 class="da-link"><a href="./about.php" class="fa-btn btn-1 btn-1e">view more</a></h3>
+				<h3 class="da-link"><a href="single-page.html" class="fa-btn btn-1 btn-1e">view more</a></h3>
 			</div>
-	   </div>
+	   <nav class="da-dots"><span class=""></span><span class="da-dots-current"></span><span class=""></span><span class=""></span></nav></div>
 	</div>
-</div><!-- end slider -->
+</div>
 <div class="zigzag"><!-- start main -->
 	<div class="container">
 		<div class="main row">
