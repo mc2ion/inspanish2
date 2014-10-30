@@ -5,6 +5,9 @@ include "app/detect.php";
 if ($page_name=='' || $page_name=='index.php') {
 	include $browser_t.'/index.php';
 	}
+elseif ($page_name=='' || $page_name=='index2.php') {
+	include $browser_t.'/index2.php';
+	}
 elseif ($page_name=='about.php') {
 	include $browser_t.'/about.php';
 	}

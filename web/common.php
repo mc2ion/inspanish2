@@ -72,7 +72,10 @@ function my_footer(){
 
 function my_title(){
 	$out = "<title>In Spanish teaching and tutoring</title>
-			<link rel=\"icon\" href=\"web/images/favicon.ico\"/>";
+			<link rel=\"icon\" href=\"web/images/favicon.ico\"/>
+			<link href=\"web/css/bootstrap.min.css?v=02\" rel='stylesheet' type='text/css' />
+			<link href=\"web/css/bootstrap.css?v=02\" rel='stylesheet' type='text/css' />
+			<link href=\"web/css/style.css?v=03\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />";
 	return $out;
 }
 

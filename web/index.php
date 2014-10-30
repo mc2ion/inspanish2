@@ -6,19 +6,16 @@ include('web/common.php');
 <head>
 <?php   echo my_title(); ?>
 <!-- Bootstrap -->
-<link href="web/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-<link href="web/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!--[if lt IE 9]>
      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
      <script src="https://oss.maxcdn.com/libs/respond.web/js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript" src="web/js/jquery.min.js"></script>
 <script type="text/javascript" src="web/js/bootstrap.js"></script>
 <script type="text/javascript" src="web/js/bootstrap.min.js"></script>
-<link href="web/css/slider.css" rel="stylesheet" type="text/css" media="all" />
+<link href="web/css/slider.css?v=02" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript" src="web/js/modernizr.custom.28468.js"></script>
 <script type="text/javascript" src="web/js/jquery.cslider.js"></script>
 	<script type="text/javascript">

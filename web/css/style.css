@@ -760,6 +760,7 @@ body {
     padding-bottom: 30px;
     text-align: center;
 	border-radius: 8px;
+    margin-left: 45%;
 }
 
 .contactus div{
@@ -798,25 +799,25 @@ i.fa.medium {
 }
 @media only screen and (max-width: 1440px) {
 	.header_bg1 {
-		background: url('../images/slider_bg1440x150.png') no-repeat  left top;
+		background: url('../images/banner6.png') no-repeat  left top;
 		background-size: 100%;
 	}
 }
 @media only screen and (max-width: 1366px) {
 	.header_bg1 {
-		background: url('../images/slider_bg1366x150.png') no-repeat  left top;
+		background: url('../images/banner6.png') no-repeat  left top;
 		background-size: 100%;
 	}
 }
 @media only screen and (max-width: 1280px) {
 	.header_bg1 {
-		background: url('../images/slider_bg1280x150.png') no-repeat  left top;
+		background: url('../images/banner6.png') no-repeat  left top;
 		background-size: 100%;
 	}
 }
 @media only screen and (max-width: 1024px) {
 	.header_bg1 {
-		background: url('../images/slider_bg1024x150.png') no-repeat  left top;
+		background: url('../images/banner6.png') no-repeat  left top;
 		background-size: 100%;
 	}
 	
