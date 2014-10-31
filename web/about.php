@@ -21,6 +21,7 @@ include('web/common.php');
 <!----font-Awesome----->
 </head>
 <body>
+<div class="content">
 <?php   echo my_header('about'); ?>
 <div class="main_bg"><!-- start main -->
 	<div class="container">
@@ -45,6 +46,7 @@ include('web/common.php');
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 <?= my_footer() ?>
 </body>

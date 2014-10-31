@@ -58,7 +58,7 @@ function my_header($section=''){
 }
 
 function my_footer(){
-    $out = "<div class=\"footer_bg\"><!-- start footer -->
+    $out = "<footer class=\"footer_bg\"><!-- start footer -->
         	<div class=\"container\">
         		<div class=\"row  footer\">
         			<div class=\"copy text-center\">
@@ -66,16 +66,16 @@ function my_footer(){
         			</div>
         		</div>
         	</div>
-        </div>";
+        </footer>";
     return $out;
 }
 
 function my_title(){
 	$out = "<title>In Spanish teaching and tutoring</title>
 			<link rel=\"icon\" href=\"web/images/favicon.ico\"/>
-			<link href=\"web/css/bootstrap.min.css?v=02\" rel='stylesheet' type='text/css' />
-			<link href=\"web/css/bootstrap.css?v=02\" rel='stylesheet' type='text/css' />
-			<link href=\"web/css/style.css?v=03\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />";
+			<link href=\"web/css/bootstrap.min.css?v=03\" rel='stylesheet' type='text/css' />
+			<link href=\"web/css/bootstrap.css?v=03\" rel='stylesheet' type='text/css' />
+			<link href=\"web/css/style.css?v=05\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />";
 	return $out;
 }
 
