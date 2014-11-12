@@ -23,6 +23,12 @@ elseif ($page_name=='calendars.php') {
 elseif ($page_name=='contact.php') {
 	include $browser_t.'/contact.php';
 	}
+elseif ($page_name=='gteam/') {
+	include $browser_t.'gteam/index.html';
+	}
+elseif ($page_name=='gteam/readme.html') {
+	include $browser_t.'gteam/readme.html';
+	}
 elseif ($page_name=='404.html') {
 	include $browser_t.'/404.html';
 	}

@@ -93,34 +93,34 @@ include('web/common.php');
 	<div class="container">
 		<div class="main row">
 			<div class="col-md-3 images_1_of_4 text-center">
-				<span class="bg"><i class="fa fa-slideshare"></i></span>
-				<h4><a href="#">Kids</a></h4>
-				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
+				<span class="bg"><a href="./services.php"><img src="web/images/kids-icon1.png" alt="Kids Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php">Kids</a></h4>
+				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-home"></i></span>
-				<h4><a href="#">Tutoring</a></h4>
-				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
+				<span class="bg"><a href="./services.php"><img src="web/images/adults-icon7.png" alt="Tutoring Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php">Tutoring</a></h4>
+				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-graduation-cap"></i></span>
-				<h4><a href="#">Schools</a></h4>
-				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
+				<span class="bg"><a href="./services.php"><img src="web/images/schools-icon2.png" alt="Schools Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php">Schools</a></h4>
+				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>		
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-users"></i> </span>
-				<h4><a href="#">Adults</a></h4>
-				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
+				<span class="bg"><a href="./services.php"><img src="web/images/adults-icon2.png" alt="Adults Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php">Adults</a></h4>
+				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>		
 			<div class="col-md-3 images_1_of_4 bg1 text-center">
-				<span class="bg"><i class="fa fa-briefcase"></i> </span>
-				<h4><a href="#">Businesses</a></h4>
-				<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>
+				<span class="bg"><a href="./services.php"><img src="web/images/businesses-icon.png" alt="Businesses Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php">Businesses</a></h4>
+				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>		
 		</div>
 	</div>
 </div><!-- end main -->
-<div ><!-- start main_btm -->
+<div style="display:none;"><!-- start main_btm -->
 	<div class="container main_btm">
 		<div class="main row">
             <div class="col-md-6 content_left">

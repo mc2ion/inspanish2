@@ -10,7 +10,7 @@ function my_header($section=''){
         	<div class="row header">
                 <div class="header_bg1">
         		  <div class="logo navbar-left">
-        			<h1><a href="index.php"><img class="img-logo" src="web/images/logo.png" alt="In Spanish"/> </a></h1>
+        			<h1><a href="index.php"><img class="img-logo" src="web/images/inSpanish-250x200-2.png" alt="In Spanish"/> </a></h1>
         		  </div>
         	   </div>
             </div>
@@ -71,7 +71,7 @@ function my_footer(){
 }
 
 function my_title(){
-	$out = "<title>In Spanish teaching and tutoring</title>
+	$out = "<title>In Spanish Inc.</title>
 			<link rel=\"icon\" href=\"web/images/favicon.ico\"/>
 			<link href=\"web/css/bootstrap.min.css?v=03\" rel='stylesheet' type='text/css' />
 			<link href=\"web/css/bootstrap.css?v=03\" rel='stylesheet' type='text/css' />

@@ -29,7 +29,7 @@ include('web/common.php');
 			<h2>Lessons</h2>
 			<div class="technology_list">
 				<div class="col-md-2 images_1_of_4 bg1">
-					<span class="bg"><i class="fa fa-slideshare"></i> </span>
+					<span class="bg"><img src="web/images/kids-icon1.png" alt="Kids Program" height="80" width="80" style="margin-top:18%"></span>
 				</div>
                 <div class="col-md-10 tech_para">
 			 	   <h4>Kids</h4>
@@ -39,7 +39,7 @@ include('web/common.php');
 			</div>
 			<div class="technology_list1">
 				<div class="col-md-2 images_1_of_4 bg1">
-				    <span class="bg"><i class="fa fa-home"></i> </span>
+				    <span class="bg"><img src="web/images/tutoring-icon.png" alt="Tutoring Program" height="80" width="80" style="margin-top:18%"></span>
 				</div>
                 <div class="col-md-10 tech_para">
 				    <h4>Tutoring</h4>
@@ -49,7 +49,7 @@ include('web/common.php');
 			</div>
 			<div class="technology_list1">
 				<div class="col-md-2 images_1_of_4 bg1">
-					<span class="bg"><i class="fa fa-graduation-cap"></i></span>
+					<span class="bg"><img src="web/images/school.png" alt="Schools Program" height="80" width="80" style="margin-top:10%"></span>
 				</div>
 				<div class="col-md-10 tech_para">
 				    <h4>Schools</h4>
@@ -59,7 +59,7 @@ include('web/common.php');
 			</div>
 			<div class="technology_list1">
 				<div class="col-md-2 images_1_of_4 bg1">
-					<span class="bg"><i class="fa fa-users"></i> </span>
+					<span class="bg"><img src="web/images/tutoring.png" alt="Adults Program" height="80" width="80" style="margin-top:18%"></span>
 				</div>
 				<div class="col-md-10 tech_para">
 				    <h4>Adults</h4>
@@ -69,7 +69,7 @@ include('web/common.php');
 			</div>
 			<div class="technology_list2">
 				<div class="col-md-2 images_1_of_4 bg1">
-					<span class="bg"><i class="fa fa-briefcase"></i> </span>
+					<span class="bg"><img src="web/images/businesses-icon.png" alt="Businesses Program" height="80" width="80" style="margin-top:18%"></span>
 				</div>
 				<div class="col-md-10 tech_para">
 				    <h4>Businesses</h4>
