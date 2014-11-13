@@ -36,9 +36,10 @@ include('web/common.php');
 			    <div class="col-md-4 company_ad">
 				    <h2>Find Address :</h2>
 					<address>
-						 <p><i class="fa fa-map-marker large "></i> <span class="address">Seattle, US</span></p>
-				   		<p><i class="fa fa-phone large"></i> 425-8025284</p>
-				 	 	<p><i class="fa fa-envelope medium"></i> inspanish.wa@gmail.com</p>
+						 <p><i class="fa fa-map-marker large "></i> <span class="address">Snoqualmie, WA</span></p>
+				   		<p><i class="fa fa-phone large"></i> (425) 802-5284</p>
+				 	 	<p><i class="fa fa-envelope medium"></i> <a href="mailto:jaisveochea@inspanishteaching.com">jaisveochea@inspanishteaching.com</a></p>
+				 	 	<p style="padding-left: 45px;"><a href="mailto:joisochea@inspanishteaching.com">joisochea@inspanishteaching.com</a></p>
 				   	</address>
 				</div>
 				<div class="col-md-8">
@@ -58,7 +59,7 @@ include('web/common.php');
 						    	<span><textarea name="userMsg"> </textarea></span>
 						    </div>
 						   <div>
-						   		<label class="fa-btn btn-1 btn-1e"><input type="submit" value="submit us"></label>
+						   		<label class="fa-btn btn-1 btn-1e"><input type="submit" value="send"></label>
 						  </div>
 					    </form>
 				    </div>

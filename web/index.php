@@ -277,6 +277,6 @@ include('web/common.php');
 </div>
 </div>
 </div>
-<?= my_footer() ?>
+<?= my_footer('index') ?>
 </body>
 </html>

@@ -57,8 +57,9 @@ function my_header($section=''){
     return $out;
 }
 
-function my_footer(){
-    $out = "<footer class=\"footer_bg\"><!-- start footer -->
+function my_footer($section=''){
+	$class = "footer_bg"; if ($section == "index") $class = "footer_bg_home";
+    $out = "<footer class=\"{$class}\"><!-- start footer -->
         	<div class=\"container\">
         		<div class=\"row  footer\">
         			<div class=\"copy text-center\">
