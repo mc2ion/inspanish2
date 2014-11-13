@@ -6,28 +6,29 @@
  */
 
 function my_header($section=''){
-    $out = '<div class="container">
-        	<div class="row header">
-                <div class="header_bg1">
-        		  <div class="logo navbar-left">
-        			<h1><a href="index.php"><img class="img-logo" src="web/images/inSpanish-250x200-2.png" alt="In Spanish"/> </a></h1>
+	$class = "header_bg1"; if ($section == "index") $class = "header_bg1_home";
+    $out = "<div class=\"container\">
+        	<div class=\"row header\">
+                <div class=\"{$class}\">
+        		  <div class=\"logo navbar-left\">
+        			<h1><a href=\"index.php\"><img class=\"img-logo\" src=\"web/images/inSpanish-250x200-2.png\" alt=\"In Spanish\"/> </a></h1>
         		  </div>
         	   </div>
             </div>
-	<div class="row h_menu">
-		<nav class="navbar navbar-default navbar-left" role="navigation">
+	<div class=\"row h_menu\">
+		<nav class=\"navbar navbar-default navbar-left\" role=\"navigation\">
 		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
+		    <div class=\"navbar-header\">
+		      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">
+		        <span class=\"sr-only\">Toggle navigation</span>
+		        <span class=\"icon-bar\"></span>
+		        <span class=\"icon-bar\"></span>
+		        <span class=\"icon-bar\"></span>
 		      </button>
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">';
+		    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">
+		      <ul class=\"nav navbar-nav\">";
               $class = ""; if ($section == "index") $class = "class = 'active'";
 	          $out .= "<li {$class}><a href=\"index.php\">Home</a></li>";
 		      $class = ""; if ($section == "about") $class = "class = 'active'";
