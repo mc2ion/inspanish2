@@ -16,27 +16,186 @@ include('web/common.php');
 <script type="text/javascript" src="web/js/jquery.min.js"></script>
 <script type="text/javascript" src="web/js/bootstrap.js"></script>
 <script type="text/javascript" src="web/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="web/js/common.js"></script>
 <!----font-Awesome----->
    	<link rel="stylesheet" href="web/fonts/css/font-awesome.min.css"/>
 <!----font-Awesome----->
 </head>
 <body>
 <div class="content">
-<?php   echo my_header('careers'); ?>
-<!--<div class="main_bg"> start main 
-	<div class="container">
-		<div class="main row">
-			<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="font-family: 'Open Sans', sans-serif;color:#555555;text-shadow:0 1px 0 #ffffff; text-align:left;font-size:12px;padding: 5px;">View Larger Map</a></small>
-		</div>
-	</div>
-</div><!-- end main -->
-<div class="main_btm"><!-- start main_btm -->
-	<div class="container">
-		<div class="main row">		
+    <?php   echo my_header('careers'); ?>
+    <!--<div class="main_bg"> start main 
+    	<div class="container">
+    		<div class="main row">
+    			<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="font-family: 'Open Sans', sans-serif;color:#555555;text-shadow:0 1px 0 #ffffff; text-align:left;font-size:12px;padding: 5px;">View Larger Map</a></small>
+    		</div>
+    	</div>
+    </div><!-- end main -->
+    <div class="main_btm"><!-- start main_btm -->
+    	<div class="container">
+    		<div class="main row">		
+      			<div class="col-md-8">
+				  <div class="contact-form">
+				  	    <form method="post" action="contact-post.html">
+                            <div class="firstpage">
+    				            <h2>Careers</h2>
+						    	<div>
+    						    	<span>Full name</span>
+    						    	<span><input type="username" class="form-control" id="userName"></span>
+    						    </div>
+    						    <div class="col-md-10" style="padding-left: 0px;">
+    						    	<span>Street Address</span>
+    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    </div>
+                                <div class="col-md-2" style="padding-right: 0px;">
+    						    	<span>Apartment #</span>
+    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    </div>
+                                <div class="col-md-4"  style="padding: 0px 10px 0px 0px;">
+    						    	<span>State</span>
+    						    	<span>
+                                    <select name="state" style="padding: 5px; width: 100%;">
+                                	<option value="AL">Alabama</option>
+                                	<option value="AK">Alaska</option>
+                                	<option value="AZ">Arizona</option>
+                                	<option value="AR">Arkansas</option>
+                                	<option value="CA">California</option>
+                                	<option value="CO">Colorado</option>
+                                	<option value="CT">Connecticut</option>
+                                	<option value="DE">Delaware</option>
+                                	<option value="DC">District Of Columbia</option>
+                                	<option value="FL">Florida</option>
+                                	<option value="GA">Georgia</option>
+                                	<option value="HI">Hawaii</option>
+                                	<option value="ID">Idaho</option>
+                                	<option value="IL">Illinois</option>
+                                	<option value="IN">Indiana</option>
+                                	<option value="IA">Iowa</option>
+                                	<option value="KS">Kansas</option>
+                                	<option value="KY">Kentucky</option>
+                                	<option value="LA">Louisiana</option>
+                                	<option value="ME">Maine</option>
+                                	<option value="MD">Maryland</option>
+                                	<option value="MA">Massachusetts</option>
+                                	<option value="MI">Michigan</option>
+                                	<option value="MN">Minnesota</option>
+                                	<option value="MS">Mississippi</option>
+                                	<option value="MO">Missouri</option>
+                                	<option value="MT">Montana</option>
+                                	<option value="NE">Nebraska</option>
+                                	<option value="NV">Nevada</option>
+                                	<option value="NH">New Hampshire</option>
+                                	<option value="NJ">New Jersey</option>
+                                	<option value="NM">New Mexico</option>
+                                	<option value="NY">New York</option>
+                                	<option value="NC">North Carolina</option>
+                                	<option value="ND">North Dakota</option>
+                                	<option value="OH">Ohio</option>
+                                	<option value="OK">Oklahoma</option>
+                                	<option value="OR">Oregon</option>
+                                	<option value="PA">Pennsylvania</option>
+                                	<option value="RI">Rhode Island</option>
+                                	<option value="SC">South Carolina</option>
+                                	<option value="SD">South Dakota</option>
+                                	<option value="TN">Tennessee</option>
+                                	<option value="TX">Texas</option>
+                                	<option value="UT">Utah</option>
+                                	<option value="VT">Vermont</option>
+                                	<option value="VA">Virginia</option>
+                                	<option value="WA">Washington</option>
+                                	<option value="WV">West Virginia</option>
+                                	<option value="WI">Wisconsin</option>
+                                	<option value="WY">Wyoming</option>
+                                </select>	
+                                </span>
+                                </div>
+                                <div class="col-md-4">
+                                    <span>City</span>
+       						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+                                </div>
+                                <div class="col-md-4" style="padding: 0px;"> 
+                                    <span>Zip Code</span>
+       						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+                                </div>
+                                <div class="col-md-6" style="padding-left: 0px;">
+    						    	<span>Phone</span>
+    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    </div>
+                                 <div class="col-md-6" style="padding-right: 0px;">
+    						    	<span >Email</span>
+    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    </div>
+                                
+    						    <div>
+    						    	<span>Tell us about your teaching experience</span>
+    						    	<span><textarea name="userMsg"> </textarea></span>
+    						    </div>
+    						   <div>
+    						   	      <a href="#" class="fa-btn btn-1 btn-1e rf-button" onclick="nextReference();">Next</a>
+    						  </div>
+                          </div> <br />
+                          <div class="secondpage">
+                            <h2>References</h2>
+                            <h3>Please list two professional references:</h3><br />
+                            <h4>Reference 1</h4>
+						    <div>
+						    	<span>Full name</span>
+						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    					   </div>	
+                           <div>
+						    	<span>Relationship</span>
+						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    					   </div>
+                           <div class="col-md-4" style="padding-left: 0px;">
+						    	<span>Company</span>
+	                            <span><input type="email" class="form-control" id="inputEmail3"></span>
+    					   </div>
+                           <div class="col-md-4">
+						    	<span>Phone</span>
+						          <span><input type="email" class="form-control" id="inputEmail3"></span>
+    					   </div>
+                           <div class="col-md-4" style="padding-right: 0px;">
+						    	<span>Email</span>
+						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    					   </div>
+                           <div style="clear: both;"></div>
+                           <div style="margin-top: 50px;">
+                                <h4>Reference 2</h4>
+    						    <div>
+    						    	<span>Full name</span>
+    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+        					   </div>	
+                               <div>
+    						    	<span>Relationship</span>
+    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+        					   </div>
+                               <div class="col-md-4" style="padding-left: 0px;">
+    						    	<span>Company</span>
+    	                            <span><input type="email" class="form-control" id="inputEmail3"></span>
+        					   </div>
+                               <div class="col-md-4">
+    						    	<span>Phone</span>
+    						          <span><input type="email" class="form-control" id="inputEmail3"></span>
+        					   </div>
+                               <div class="col-md-4" style="padding-right: 0px;">
+    						    	<span>Email</span>
+    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+        					   </div>
+                               <div class="fileUpload fa-btn btn-1 btn-1e esp">
+                                    <span>Attach your resume</span>
+                                    <input type="file" class="upload" />
+                                </div>
+                               <label class="fa-btn btn-1 btn-1e"><input type="submit" value="Send"></label>	
+                              </div>
+                          </div>
+					    </form>
+				    </div>
+  			</div>	
+              <div class="col-md-4 company_ad"></div>	
   			<div class="clearfix"></div>		
-	</div> 
-</div>
-</div>
+	       </div>
+        </div> 
+     </div>
 </div>
 <?= my_footer() ?>
 </body>

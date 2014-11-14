@@ -119,6 +119,31 @@ body {
 padding: 0;
 background: #4e494a;
 }
+input[type="button"] {
+background: none;
+border: none;
+}
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.esp{
+    padding: 11px 10px 5px !important;
+    margin-right: 5px !important;
+}
+.secondpage{display: none;}
 .navbar {
 	position: relative;
 	min-height: 60px;
@@ -136,6 +161,9 @@ background: #4e494a;
 	/* text-shadow: 3px 3px 5px rgb(0, 0, 0); */
 	background: #5C2E7A;
 }
+.zigzag{
+	padding:50px 0px 80px;
+}
 .navbar-default .navbar-nav > li > a {
 	color: white;
 	/* font-weight: bold; */
@@ -143,6 +171,7 @@ background: #4e494a;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	font-size: 16px;
 }
 .nav > li {
 	border-right: 1px solid rgb(65, 63, 63);
@@ -160,6 +189,7 @@ background: #4e494a;
 }
 .soc_icons ul{
 	margin-bottom: 0;
+	margin-right: 40px;
 }
 .soc_icons ul li{
 	display:inline-block;
@@ -200,7 +230,7 @@ background: #4e494a;
 }
 .main{
 	padding: 3% 0 2% 0;
-	border-top: 1px solid rgb(233, 233, 233); */  };
+	/*border-top: 1px solid rgb(233, 233, 233);*/
 }
 .images_1_of_4 img{
 	display: inline-block;
@@ -213,10 +243,6 @@ background: #4e494a;
 	color: #353535;
 	font-size: 1.4em;
 	font-family: 'texgyreadventorregular';
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
 }
 .images_1_of_4 h4 a:hover{
 	text-decoration:underline;
@@ -312,7 +338,7 @@ background: #4e494a;
 	text-decoration:none;
 }
 .btn-1e:hover:after {
-	height: 260%;
+	height: 200%;
 	opacity: 1;
 }
 .btn-1e:active:after {
@@ -339,7 +365,7 @@ background: #4e494a;
 }
 /* start footer */
 .footer_bg_home{
-	background: #dbcddd;
+	background: #DCD8DD;
 	height: 65px;
 }
 
@@ -358,7 +384,7 @@ background: #4e494a;
 .technology_list, .technology_list1{
     padding-top: 25px;
     padding-bottom: 40px;
-    border-bottom: 1px solid rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(231, 231, 231);
 }
 .technology_list2{
     padding-top: 25px;
@@ -784,6 +810,7 @@ background: #4e494a;
 .navbar-nav {
     font-family: 'texgyreadventorregular';
     /* border: blue; */
+    font-size: 13px !important;
 }
 
 .bgcolor{
