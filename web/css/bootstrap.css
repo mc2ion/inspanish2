@@ -736,20 +736,24 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
-  }
+    width: 100%;
+  
+    padding: 0px;
+}
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
-  }
+    width: 100%;
+  
+    padding: 0;
+}
 }
 @media (min-width: 1200px) {
   .container {
@@ -3659,7 +3663,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
-  max-height: 340px;
+  max-height: 365px;
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;

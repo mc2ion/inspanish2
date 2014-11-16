@@ -39,7 +39,7 @@ include('web/common.php');
 			</div>
 			<div class="technology_list1">
 				<div class="col-md-2 images_1_of_4 bg1">
-				    <span class="bg"><img src="web/images/tutoring-icon.png" alt="Tutoring Program" height="80" width="80" style="margin-top:18%"></span>
+				    <span class="bg"><img src="web/images/adults-icon7.png" alt="Tutoring Program" height="80" width="80" style="margin-top:18%"></span>
 				</div>
                 <div class="col-md-10 tech_para">
 				    <h4>Tutoring</h4>
@@ -49,7 +49,7 @@ include('web/common.php');
 			</div>
 			<div class="technology_list1">
 				<div class="col-md-2 images_1_of_4 bg1">
-					<span class="bg"><img src="web/images/school.png" alt="Schools Program" height="80" width="80" style="margin-top:10%"></span>
+					<span class="bg"><img src="web/images/schools-icon2.png" alt="Schools Program" height="80" width="80" style="margin-top:10%"></span>
 				</div>
 				<div class="col-md-10 tech_para">
 				    <h4>Schools</h4>
@@ -59,7 +59,7 @@ include('web/common.php');
 			</div>
 			<div class="technology_list1">
 				<div class="col-md-2 images_1_of_4 bg1">
-					<span class="bg"><img src="web/images/tutoring.png" alt="Adults Program" height="80" width="80" style="margin-top:18%"></span>
+					<span class="bg"><img src="web/images/adults-icon2.png" alt="Adults Program" height="80" width="80" style="margin-top:18%"></span>
 				</div>
 				<div class="col-md-10 tech_para">
 				    <h4>Adults</h4>

@@ -36,25 +36,25 @@ include('web/common.php');
     		<div class="main row">		
       			<div class="col-md-8">
 				  <div class="contact-form">
-				  	    <form method="post" action="contact-post.html">
+				  	    <form method="post" action="./_ext/actions.php">
                             <div class="firstpage">
     				            <h2>Careers</h2>
-						    	<div>
+						    	<div class="col-md-12">
     						    	<span>Full name</span>
-    						    	<span><input type="username" class="form-control" id="userName"></span>
+    						    	<span><input type="text" name="name" class="form-control" /></span>
     						    </div>
-    						    <div class="col-md-10" style="padding-left: 0px;">
+    						    <div class="col-md-10">
     						    	<span>Street Address</span>
-    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    	<span><input type="text" name="street" class="form-control" /></span>
     						    </div>
-                                <div class="col-md-2" style="padding-right: 0px;">
+                                <div class="col-md-2">
     						    	<span>Apartment #</span>
-    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    	<span><input type="text" name="apartment" class="form-control" /></span>
     						    </div>
-                                <div class="col-md-4"  style="padding: 0px 10px 0px 0px;">
+                                <div class="col-md-4" >
     						    	<span>State</span>
     						    	<span>
-                                    <select name="state" style="padding: 5px; width: 100%;">
+                                    <select name="state" class="form-control" >
                                 	<option value="AL">Alabama</option>
                                 	<option value="AK">Alaska</option>
                                 	<option value="AZ">Arizona</option>
@@ -111,81 +111,85 @@ include('web/common.php');
                                 </div>
                                 <div class="col-md-4">
                                     <span>City</span>
-       						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+       						    	<span><input type="text" name="city" class="form-control" /></span>
                                 </div>
-                                <div class="col-md-4" style="padding: 0px;"> 
+                                <div class="col-md-4"> 
                                     <span>Zip Code</span>
-       						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+       						    	<span><input type="text" name="zipcode" class="form-control" /></span>
                                 </div>
-                                <div class="col-md-6" style="padding-left: 0px;">
+                                <div class="col-md-6">
     						    	<span>Phone</span>
-    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    	<span><input type="text" name="phone" class="form-control" /></span>
     						    </div>
-                                 <div class="col-md-6" style="padding-right: 0px;">
+                                 <div class="col-md-6" >
     						    	<span >Email</span>
-    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    	<span><input type="text" name="email" class="form-control" /></span>
     						    </div>
                                 
-    						    <div>
+    						    <div class="col-md-12">
     						    	<span>Tell us about your teaching experience</span>
-    						    	<span><textarea name="userMsg"> </textarea></span>
+    						    	<span><textarea name="experience"> </textarea></span>
     						    </div>
-    						   <div>
+    						   <div class="col-md-12" style="text-align: right;">
     						   	      <a href="#" class="fa-btn btn-1 btn-1e rf-button" onclick="nextReference();">Next</a>
     						  </div>
                           </div> <br />
                           <div class="secondpage">
-                            <h2>References</h2>
+                            <h2>Careers</h2>
                             <h3>Please list two professional references:</h3><br />
                             <h4>Reference 1</h4>
-						    <div>
-						    	<span>Full name</span>
-						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
-    					   </div>	
-                           <div>
-						    	<span>Relationship</span>
-						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
-    					   </div>
-                           <div class="col-md-4" style="padding-left: 0px;">
-						    	<span>Company</span>
-	                            <span><input type="email" class="form-control" id="inputEmail3"></span>
-    					   </div>
-                           <div class="col-md-4">
-						    	<span>Phone</span>
-						          <span><input type="email" class="form-control" id="inputEmail3"></span>
-    					   </div>
-                           <div class="col-md-4" style="padding-right: 0px;">
-						    	<span>Email</span>
-						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
-    					   </div>
-                           <div style="clear: both;"></div>
-                           <div style="margin-top: 50px;">
-                                <h4>Reference 2</h4>
-    						    <div>
+    						    <div class="col-md-12">
     						    	<span>Full name</span>
-    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    	<span><input type="text"  name="namerf1" class="form-control" /></span>
         					   </div>	
-                               <div>
+                               <div class="col-md-12">
     						    	<span>Relationship</span>
-    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    	<span><input type="text" name="rshiprf1" class="form-control" /></span>
         					   </div>
-                               <div class="col-md-4" style="padding-left: 0px;">
+                               <div class="col-md-4">
     						    	<span>Company</span>
-    	                            <span><input type="email" class="form-control" id="inputEmail3"></span>
+    	                            <span><input type="text" name="cmprf1" class="form-control" /></span>
         					   </div>
                                <div class="col-md-4">
     						    	<span>Phone</span>
-    						          <span><input type="email" class="form-control" id="inputEmail3"></span>
+    						          <span><input type="text" name="phonerf1" class="form-control" /></span>
         					   </div>
-                               <div class="col-md-4" style="padding-right: 0px;">
+                               <div class="col-md-4">
     						    	<span>Email</span>
-    						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
+    						    	<span><input type="text" name="emailrf1" class="form-control" /></span>
         					   </div>
-                               <div class="fileUpload fa-btn btn-1 btn-1e esp">
-                                    <span>Attach your resume</span>
-                                    <input type="file" class="upload" />
-                                </div>
-                               <label class="fa-btn btn-1 btn-1e"><input type="submit" value="Send"></label>	
+                               <div style="clear: both;"></div>
+                               <div style="margin-top: 50px;">
+                                    <h4>Reference 2</h4>
+        						    <div class="col-md-12">
+    						    	<span>Full name</span>
+    						    	<span><input type="text" name="namerf2" class="form-control" /></span>
+        					   </div>	
+                               <div class="col-md-12">
+    						    	<span>Relationship</span>
+    						    	<span><input type="text" name="rshiprf2" class="form-control" /></span>
+        					   </div>
+                               <div class="col-md-4">
+    						    	<span>Company</span>
+    	                            <span><input type="text" name="cmprf2" class="form-control" /></span>
+        					   </div>
+                               <div class="col-md-4">
+    						    	<span>Phone</span>
+    						          <span><input type="text"  name="phonerf2" class="form-control" /></span>
+        					   </div>
+                               <div class="col-md-4">
+    						    	<span>Email</span>
+    						    	<span><input name="emailrf2" class="form-control" /></span>
+        					   </div>
+							   <div class="col-md-4" >
+                                   <div class="fileUpload fa-btn btn-2 btn-2e esp">
+                                        <span>Attach your resume</span>
+                                        <input type="file" class="upload" />
+                                    </div>
+                               </div>
+                                <div class="col-md-8" style="text-align: right;">
+                                    <label class="fa-btn btn-1 btn-1e"><input type="submit" name="add-career" value="Send"/></label>
+                               </div>	
                               </div>
                           </div>
 					    </form>

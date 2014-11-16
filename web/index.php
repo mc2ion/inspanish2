@@ -92,27 +92,27 @@ include('web/common.php');
 <div class="zigzag"><!-- start main -->
 	<div class="container">
 		<div class="main row">
-			<div class="col-md-3 images_1_of_4 text-center">
+			<div class="col-md-3 col-xs-12 images_1_of_4 text-center">
 				<span class="bg"><a href="./services.php"><img src="web/images/kids-icon1.png" alt="Kids Program" height="80" width="80" style="margin-top:18%"></a></span>
 				<h4><a href="./services.php">Kids</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>
-			<div class="col-md-3 images_1_of_4 bg1 text-center">
+			<div class="col-md-3 col-xs-12 images_1_of_4 bg1 text-center">
 				<span class="bg"><a href="./services.php"><img src="web/images/adults-icon7.png" alt="Tutoring Program" height="80" width="80" style="margin-top:18%"></a></span>
 				<h4><a href="./services.php">Tutoring</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>
-			<div class="col-md-3 images_1_of_4 bg1 text-center">
+			<div class="col-md-3 col-xs-12 images_1_of_4 bg1 text-center">
 				<span class="bg"><a href="./services.php"><img src="web/images/schools-icon2.png" alt="Schools Program" height="80" width="80" style="margin-top:18%"></a></span>
 				<h4><a href="./services.php">Schools</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>		
-			<div class="col-md-3 images_1_of_4 bg1 text-center">
+			<div class="col-md-3 col-xs-12 images_1_of_4 bg1 text-center">
 				<span class="bg"><a href="./services.php"><img src="web/images/adults-icon2.png" alt="Adults Program" height="80" width="80" style="margin-top:18%"></a></span>
 				<h4><a href="./services.php">Adults</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>		
-			<div class="col-md-3 images_1_of_4 bg1 text-center">
+			<div class="col-md-3 col-xs-12 images_1_of_4 bg1 text-center">
 				<span class="bg"><a href="./services.php"><img src="web/images/businesses-icon.png" alt="Businesses Program" height="80" width="80" style="margin-top:18%"></a></span>
 				<h4><a href="./services.php">Businesses</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->

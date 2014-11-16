@@ -20,14 +20,14 @@ elseif ($page_name=='careers.php') {
 elseif ($page_name=='calendars.php') {
 	include $browser_t.'/calendars.php';
 	}
-elseif ($page_name=='contact.php') {
+elseif (strpos($page_name, "contact.php") === 0) {
 	include $browser_t.'/contact.php';
 	}
-elseif ($page_name=='gteam/') {
-	include $browser_t.'gteam/index.html';
+elseif ($page_name=='_ext/actions.php') {
+	include $browser_t.'/_ext/actions.php';
 	}
-elseif ($page_name=='gteam/readme.html') {
-	include $browser_t.'gteam/readme.html';
+elseif ($page_name=='_ext/mail.php') {
+	include $browser_t.'/_ext/mail.php';
 	}
 elseif ($page_name=='404.html') {
 	include $browser_t.'/404.html';
