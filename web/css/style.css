@@ -372,7 +372,7 @@ border: none;
 .btn-2e {
 	overflow: hidden;
 }
-
+.br{text-align: right;}
 .btn-2e:after {
 	width: 100%;
 	height: 0;
@@ -819,6 +819,7 @@ border: none;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	border: 1px solid #C4C4C4;
 }
 .contact-form textarea:focus{
 	/* border:1px solid #ff5454; */
@@ -1062,30 +1063,47 @@ i.fa.medium {
 	}
 	.technology h2 {
 		font-size: 3em;
-	}
+	
+		margin-top: 15px;
+}
 	.about h2 {
 		font-size: 2em;
+        margin-top: 20px;
 	}
 	.company_ad h2 {
 		font-size: 2em;
 	}
 	.contact-form h2 {
 		font-size: 3em;
-	
 		margin-top: 20px;
-}
+    }
+    
+    .img1{width: 663px;         margin-top: 210px;}
 	.blog_left h4 a {
 		font-size: 1em;
 	}
 	.blog_list ul li {
 		margin-left: 5px;
 	}
+    
+    .da-slide p{top:105px !important; font-size:13px !important; height: 150px; font-weight: bold;}
+    
 	.blog_list li a {
 		padding: 4px 4px;
 	}
 	.detail h2{
 		font-size: 2em;	
 	}
+    
+    h3{font-size:20px;}
+    
+    .br{text-align: left;}
+    
+    .mailto {font-size: 13px;}
+    
+    .company_ad h2{margin-top: 20px;}
+    
+    .contact-form h2{margin-top: 50px; font-size:2em;}
 }
 @media only screen and (max-width: 320px) {
 	.da-slide h2{

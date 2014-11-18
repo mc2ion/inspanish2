@@ -181,13 +181,13 @@ include('web/common.php');
     						    	<span>Email</span>
     						    	<span><input name="emailrf2" class="form-control" /></span>
         					   </div>
-							   <div class="col-md-4" >
+							   <div class="col-md-4 col-xs-12" >
                                    <div class="fileUpload fa-btn btn-2 btn-2e esp">
                                         <span>Attach your resume</span>
                                         <input type="file" class="upload" />
                                     </div>
                                </div>
-                                <div class="col-md-8" style="text-align: right;">
+                                <div class="col-md-8 col-xs-12 br">
                                     <label class="fa-btn btn-1 btn-1e"><input type="submit" name="add-career" value="Send"/></label>
                                </div>	
                               </div>

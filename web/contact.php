@@ -27,12 +27,12 @@ include('web/common.php');
 	<div class="container">
 		<div class="main row">
 			    <div class="col-md-4 company_ad">
-				    <h2>Find Address :</h2>
+				    <h2>Find Address:</h2>
 					<address>
 						 <p><i class="fa fa-map-marker large "></i> <span class="address">Snoqualmie, WA</span></p>
 				   		<p><i class="fa fa-phone large"></i> (425) 802-5284</p>
-				 	 	<p><i class="fa fa-envelope medium"></i> <a href="mailto:jaisveochea@inspanishteaching.com">jaisveochea@inspanishteaching.com</a></p>
-				 	 	<p style="padding-left: 45px;"><a href="mailto:joisochea@inspanishteaching.com">joisochea@inspanishteaching.com</a></p>
+				 	 	<p><i class="fa fa-envelope medium"></i> <a class="mailto" href="mailto:jaisveochea@inspanishteaching.com">jaisveochea@inspanishteaching.com</a></p>
+				 	 	<p style="padding-left: 45px;"><a class="mailto" href="mailto:joisochea@inspanishteaching.com">joisochea@inspanishteaching.com</a></p>
 				   	</address>
 				</div>
 				<div class="col-md-8">
