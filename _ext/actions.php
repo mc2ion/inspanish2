@@ -24,6 +24,8 @@ if (isset($_POST["add-career"])){
     $en["phonerf2"] = $_POST["phonerf2"];
     $en["emailrf2"] = $_POST["emailrf2"];
     
+    //a new application have been filled on the career section
+    
     print_r($en);
 }
 
@@ -38,7 +40,6 @@ if (isset($_POST["contact"])){
         header("Location: /inspanish/contact.php?s=1");
     else
         header("Location: /inspanish/contact.php?s=0");
-    #print_r($en);
 }
 
 ?>
