@@ -16,6 +16,18 @@ include('web/common.php');
 <script type="text/javascript" src="web/js/jquery.min.js"></script>
 <script type="text/javascript" src="web/js/bootstrap.js"></script>
 <script type="text/javascript" src="web/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="web/js/jquery.innerfade.js"></script>
+	<script type="text/javascript">
+            $(document).ready(
+                function(){
+                $('#phrases').innerfade({
+                    animationtype: 'fade',
+                    speed: 850,
+                    timeout: 5000,
+                    type: 'sequence',
+                });
+            });
+	</script>
 <!----font-Awesome----->
    	<link rel="stylesheet" href="web/fonts/css/font-awesome.min.css"/>
 <!----font-Awesome----->
@@ -26,10 +38,11 @@ include('web/common.php');
 <div class="main_bg"><!-- start main -->
 	<div class="container">
 		<div class="about row">
-			<h2>Education Portal</h2>
-			<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words. </p>
-			<!--<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>-->
+			<h2>About Us</h2>
+			<p class="para">Language is so much more than a communication tool. It encompasses geography, history, literature, music, food, tradition and identity.</p>
+			<p class="para">Since we moved to Washington State, we have enjoyed sharing our culture and traditions with our friends and community. There is no better way of telling our story than through our native language.</p>
+			<p class="para">Spanish has been the best way to share our passion for teaching with our students; toddlers, teenagers and adults. We want this to be the starting point to share our rich culture and traditions that are present throughout the Spanish speaking countries from South America to Europe.</p>
+            <!--<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>-->
 		</div>
 	</div>
 </div><!-- end main -->
@@ -37,12 +50,29 @@ include('web/common.php');
 	<div class="container">
 		<div class="about row">
 			<div class="col-md-6 content_left">
-				<img src="web/images/pic1.jpg" alt="" class="img-responsive">
+				<img src="web/images/aboutus-pic1.jpg" alt="" class="img-responsive"/>
 			</div>
 			<div class="col-md-6 content_right">
-				<h2>Online Education</h2>
-				<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words. </p>
-				<!--<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>-->
+				<h2>Jaisve Ochea</h2>
+				<p class="para">My name is Jaisve Ochea and I am one of the owners and teachers of Inspanish Inc. I was born in Caracas, Venezuela and lived there until the age of 25. I moved to Hawaii, where I met my Husband of 11 years. I have being living in Snoqualmie for the past 9 years with my family.</p>
+				<p class="para">I have a Bachelor’s and Associate’s degree from the Simón Bolívar University and from the I.U.N.P. in Caracas, Venezuela. More than 6 years ago I started teaching Spanish in the Snoqualmie Valley to pre-school children.</p>
+                <p class="para">What I have learned, is that children at this age have so much love for life and knowledge. Sharing in their growth and love is something that I take great pride and pleasure in. 
+I enjoy and appreciate the opportunities to share my culture, experience and language with all.</p>
+
+                <!--<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>-->
+			</div>
+		</div>
+        <div class="about row">
+			<div class="col-md-6 content_left">
+				<h2>Jois Ochea</h2>
+				<p class="para">My name is Jois Ochea. I was born in Caracas, Venezuela and lived there for 30 years. My hometown allowed me to earn my bachelors degree in Literature. Teaching has been my life for the last 12 years. I have taught Elementary School, High School and College level. Spanish is not just my native language, it is also my love. Teaching people how to communicate properly in Spanish is what I strive for. It is more than teaching single words. It is about giving my students the skills and the confidence to express all of their thoughts.</p>
+				<p class="para">My husband and I live in North Bend with our dog Bailey. I truly enjoy reading, writing and all kinds of art.</p>
+                <p class="para">Mundo (world), Vida (life) and viaje (travel) are my favorite words in Spanish.</p>
+
+                <!--<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>-->
+			</div>
+			<div class="col-md-6 content_right">
+				<img src="web/images/aboutus-pic2.jpg" alt="" class="img-responsive"/>
 			</div>
 		</div>
 	</div>

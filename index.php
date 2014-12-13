@@ -11,14 +11,11 @@ elseif ($page_name=='' || $page_name=='index2.php') {
 elseif ($page_name=='about.php') {
 	include $browser_t.'/about.php';
 	}
-elseif ($page_name=='services.php') {
+elseif ($page_name=='services.php' || strpos($page_name, 'services.php') === 0) {
 	include $browser_t.'/services.php';
 	}
 elseif ($page_name=='careers.php') {
 	include $browser_t.'/careers.php';
-	}
-elseif ($page_name=='calendars.php') {
-	include $browser_t.'/calendars.php';
 	}
 elseif (strpos($page_name, "contact.php") === 0) {
 	include $browser_t.'/contact.php';

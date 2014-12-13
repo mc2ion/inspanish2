@@ -18,6 +18,7 @@ include('web/common.php');
 <link href="web/css/slider.css?v=03" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript" src="web/js/modernizr.custom.28468.js"></script>
 <script type="text/javascript" src="web/js/jquery.cslider.js"></script>
+<script type="text/javascript" src="web/js/jquery.innerfade.js"></script>
 	<script type="text/javascript">
 			$(function() {
 				$('#da-slider').cslider({
@@ -28,6 +29,16 @@ include('web/common.php');
 				});
 
 			});
+            
+            $(document).ready(
+                function(){
+                $('#phrases').innerfade({
+                    animationtype: 'fade',
+                    speed: 850,
+                    timeout: 5000,
+                    type: 'sequence',
+                });
+            });
 		</script>
  <!--<link href="web/css/owl.carousel.css" rel="stylesheet"/>
 <script src="web/js/owl.carousel.js"></script>
@@ -55,6 +66,12 @@ include('web/common.php');
 <div class="slider_bg"><!-- start slider -->
    	<div class="container">
 		<div id="da-slider" class="da-slider text-center">
+			<div class="da-slide" >
+				<h2 style="top: 35%;">¡BIENVENIDOS!</h2>
+				<div class="da-img">
+					<img src="web/images/welcome.png" class="img1" alt="image01" />
+				</div>
+			</div>
 			<div class="da-slide" >
 				<h2>education portal 1</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<span class="hide_text"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>
@@ -92,29 +109,29 @@ include('web/common.php');
 <div class="zigzag"><!-- start main -->
 	<div class="container">
 		<div class="main row">
-			<div class="col-md-3 col-xs-12 images_1_of_4 text-center">
-				<span class="bg"><a href="./services.php"><img src="web/images/kids-icon1.png" alt="Kids Program" height="80" width="80" style="margin-top:18%"></a></span>
-				<h4><a href="./services.php">Kids</a></h4>
+			<div class="col-md-3 col-xs-12 images_1_of_4 bg1 text-center">
+				<span class="bg"><a href="./services.php?less=1"><img src="web/images/kids-icon1.png" alt="Kids Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php?less=1">Kids</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>
 			<div class="col-md-3 col-xs-12 images_1_of_4 bg1 text-center">
-				<span class="bg"><a href="./services.php"><img src="web/images/adults-icon7.png" alt="Tutoring Program" height="80" width="80" style="margin-top:18%"></a></span>
-				<h4><a href="./services.php">Tutoring</a></h4>
+				<span class="bg"><a href="./services.php?less=2"><img src="web/images/adults-icon7.png" alt="Tutoring Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php?less=2">Tutoring</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>
 			<div class="col-md-3 col-xs-12 images_1_of_4 bg1 text-center">
-				<span class="bg"><a href="./services.php"><img src="web/images/schools-icon2.png" alt="Schools Program" height="80" width="80" style="margin-top:18%"></a></span>
-				<h4><a href="./services.php">Schools</a></h4>
+				<span class="bg"><a href="./services.php?less=3"><img src="web/images/schools-icon2.png" alt="Schools Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php?less=3">Schools</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>		
 			<div class="col-md-3 col-xs-12 images_1_of_4 bg1 text-center">
-				<span class="bg"><a href="./services.php"><img src="web/images/adults-icon2.png" alt="Adults Program" height="80" width="80" style="margin-top:18%"></a></span>
-				<h4><a href="./services.php">Adults</a></h4>
+				<span class="bg"><a href="./services.php?less=4"><img src="web/images/adults-icon2.png" alt="Adults Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php?less=4">Adults</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>		
 			<div class="col-md-3 col-xs-12 images_1_of_4 bg1 text-center">
-				<span class="bg"><a href="./services.php"><img src="web/images/businesses-icon.png" alt="Businesses Program" height="80" width="80" style="margin-top:18%"></a></span>
-				<h4><a href="./services.php">Businesses</a></h4>
+				<span class="bg"><a href="./services.php??less=5"><img src="web/images/businesses-icon.png" alt="Businesses Program" height="80" width="80" style="margin-top:18%"></a></span>
+				<h4><a href="./services.php?less=5">Businesses</a></h4>
 				<!--<a href="./services.php" class="fa-btn btn-1 btn-1e">learn more</a>-->
 			</div>		
 		</div>

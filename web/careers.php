@@ -17,6 +17,18 @@ include('web/common.php');
 <script type="text/javascript" src="web/js/bootstrap.js"></script>
 <script type="text/javascript" src="web/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="web/js/common.js"></script>
+<script type="text/javascript" src="web/js/jquery.innerfade.js"></script>
+	<script type="text/javascript">
+            $(document).ready(
+                function(){
+                $('#phrases').innerfade({
+                    animationtype: 'fade',
+                    speed: 850,
+                    timeout: 5000,
+                    type: 'sequence',
+                });
+            });
+	</script>
 <!----font-Awesome----->
    	<link rel="stylesheet" href="web/fonts/css/font-awesome.min.css"/>
 <!----font-Awesome----->

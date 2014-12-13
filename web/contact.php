@@ -16,6 +16,18 @@ include('web/common.php');
 <script type="text/javascript" src="web/js/jquery.min.js"></script>
 <script type="text/javascript" src="web/js/bootstrap.js"></script>
 <script type="text/javascript" src="web/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="web/js/jquery.innerfade.js"></script>
+	<script type="text/javascript">
+            $(document).ready(
+                function(){
+                $('#phrases').innerfade({
+                    animationtype: 'fade',
+                    speed: 850,
+                    timeout: 5000,
+                    type: 'sequence',
+                });
+            });
+	</script>
 <!----font-Awesome----->
    	<link rel="stylesheet" href="web/fonts/css/font-awesome.min.css"/>
 <!----font-Awesome----->
@@ -31,8 +43,9 @@ include('web/common.php');
 					<address>
 						 <p><i class="fa fa-map-marker large "></i> <span class="address">Snoqualmie, WA</span></p>
 				   		<p><i class="fa fa-phone large"></i> (425) 802-5284</p>
-				 	 	<p><i class="fa fa-envelope medium"></i> <a class="mailto" href="mailto:jaisveochea@inspanishteaching.com">jaisveochea@inspanishteaching.com</a></p>
-				 	 	<p style="padding-left: 45px;"><a class="mailto" href="mailto:joisochea@inspanishteaching.com">joisochea@inspanishteaching.com</a></p>
+				 	 	<p><i class="fa fa-envelope medium"></i> <a class="mailto" href="mailto:inspanish.wa@gmail.com">inspanish.wa@gmail.com</a></p>
+				 	 	<p style="padding-left: 45px;"><a class="mailto" href="mailto:jaisveochea@inspanishteaching.com">jaisveochea@inspanishteaching.com</a></p>
+                        <p style="padding-left: 45px;"><a class="mailto" href="mailto:joisochea@inspanishteaching.com">joisochea@inspanishteaching.com</a></p>
 				   	</address>
 				</div>
 				<div class="col-md-8">
