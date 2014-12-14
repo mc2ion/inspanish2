@@ -67,9 +67,9 @@ include('web/common.php');
    	<div class="container">
 		<div id="da-slider" class="da-slider text-center">
 			<div class="da-slide" >
-				<h2 style="top: 35%;">¡BIENVENIDOS!</h2>
+				<h2 style="top: 40% !important;font-size:3em !important;">¡BIENVENIDOS!</h2>
 				<div class="da-img">
-					<img src="web/images/welcome.png" class="img1" alt="image01" />
+					<img src="web/images/welcome.png" alt="image01" />
 				</div>
 			</div>
 			<div class="da-slide" >

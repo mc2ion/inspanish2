@@ -43,14 +43,13 @@ include('web/common.php');
 					<address>
 						 <p><i class="fa fa-map-marker large "></i> <span class="address">Snoqualmie, WA</span></p>
 				   		<p><i class="fa fa-phone large"></i> (425) 802-5284</p>
-				 	 	<p><i class="fa fa-envelope medium"></i> <a class="mailto" href="mailto:inspanish.wa@gmail.com">inspanish.wa@gmail.com</a></p>
-				 	 	<p style="padding-left: 45px;"><a class="mailto" href="mailto:jaisveochea@inspanishteaching.com">jaisveochea@inspanishteaching.com</a></p>
-                        <p style="padding-left: 45px;"><a class="mailto" href="mailto:joisochea@inspanishteaching.com">joisochea@inspanishteaching.com</a></p>
+				 	 	<p><i class="fa fa-envelope medium"></i> <a class="mailto" href="mailto:jaisveochea@inspanishteaching.com">jaisveochea@inspanishteaching.com</a></p>
+                        <p class="secondmail" style="padding-left: 45px;"><a class="mailto" href="mailto:joisochea@inspanishteaching.com">joisochea@inspanishteaching.com</a></p>
 				   	</address>
 				</div>
 				<div class="col-md-8">
 				  <div class="contact-form">
-				  	<h2>Contact Us</h2>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+				  	<h2>Contact Us:</h2>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 					    <form method="post" action="./_ext/actions.php">
                             <?php 
                                 if (isset($_GET["s"]) && $_GET["s"] == 1){ ?>
