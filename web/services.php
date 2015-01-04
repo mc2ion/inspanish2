@@ -72,7 +72,7 @@ include('web/common.php');
 					<span class="bg"><img src="web/images/schools-icon2.png" alt="Schools Program" height="80" width="80" style="margin-top:10%"></span>
 				</div>
 				<div class="col-md-10 tech_para">
-				    <h4>Spanish Lessons for Schools</h4>
+				    <h4>Spanish Programs for Schools</h4>
 					<p class="para">Speaking and listening skills are emphasized in all Spanish classes as students learn to count to 20, 50, 100 and more. These lessons focus on basic greetings, colors, letters, numbers, shapes, seasons, weather and other topics.</p>
 				    <p class="para">Cultural lessons are integrated into each instruction. Songs, games, visuals, art and writing projects make the language as tangible as possible. Class is conducted almost exclusively in Spanish and relies on teacher created materials.</p>
                     <p class="para">We are currently offering our Spanish Programs at:</p>

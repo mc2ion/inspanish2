@@ -58,9 +58,9 @@ function my_header($section=''){
 		</nav>
 		<div class="soc_icons navbar-right">
 			<ul class="list-unstyled text-center">
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://twitter.com/inspanishwa" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100008137547770&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.linkedin.com/pub/jaisve-ochea/9a/982/659" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 			</ul>	
 		</div>
 	</div>
@@ -130,7 +130,7 @@ function my_lessons(){
 					<span class=\"bg\"><img src=\"web/images/schools-icon2.png\" alt=\"Schools Program\" height=\"80\" width=\"80\" style=\"margin-top:10%\"></span>
 				</div>
 				<div class=\"col-md-10 tech_para\">
-				    <h4>Spanish Lessons for Schools</h4>
+				    <h4>Spanish Program for Schools</h4>
 					<p class=\"para\">Speaking and listening skills are emphasized in all Spanish classes as students learn to count to 20, 50, 100 and more. These lessons focus on basic greetings, colors, letters, numbers, shapes, seasons, weather and other topics.</p>
 				    <p class=\"para\">Cultural lessons are integrated into each instruction. Songs, games, visuals, art and writing projects make the language as tangible as possible. Class is conducted almost exclusively in Spanish and relies on teacher created materials.</p>
                     <p class=\"para\">We are currently offering our Spanish Programs at:</p>
