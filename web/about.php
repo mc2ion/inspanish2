@@ -55,7 +55,7 @@ include('web/common.php');
 			<div class="col-md-6 content_right">
 				<h2>Jaisve Ochea</h2>
 				<p class="para">My name is Jaisve Ochea and I am one of the owners and teachers of Inspanish Inc. I was born in Caracas, Venezuela and lived there until the age of 25. I moved to Hawaii, where I met my Husband of 11 years. I have being living in Snoqualmie for the past 9 years with my family.</p>
-				<p class="para">I have a Bachelor’s and Associate’s degree from the Simón Bolívar University and from the I.U.N.P. in Caracas, Venezuela. More than 6 years ago I started teaching Spanish in the Snoqualmie Valley to pre-school children.</p>
+				<p class="para">I have two Associate’s degrees, one from the Simón Bolívar University and other from the I.U.N.P. in Caracas, Venezuela. Over six years ago I started teaching Spanish in the Snoqualmie Valley to pre-school children.</p>
                 <p class="para">What I have learned, is that children at this age have so much love for life and knowledge. Sharing in their growth and love is something that I take great pride and pleasure in. 
 I enjoy and appreciate the opportunities to share my culture, experience and language with all.</p>
 
@@ -65,7 +65,7 @@ I enjoy and appreciate the opportunities to share my culture, experience and lan
         <div class="about row">
 			<div class="col-md-6 content_left">
 				<h2>Jois Ochea</h2>
-				<p class="para">My name is Jois Ochea. I was born in Caracas, Venezuela and lived there for 30 years. My hometown allowed me to earn my bachelors degree in Literature. Teaching has been my life for the last 12 years. I have taught Elementary School, High School and College level. Spanish is not just my native language, it is also my love. Teaching people how to communicate properly in Spanish is what I strive for. It is more than teaching single words. It is about giving my students the skills and the confidence to express all of their thoughts.</p>
+				<p class="para">My name is Jois Ochea. I was born in Caracas, Venezuela and lived there for 30 years. My hometown allowed me to earn my bachelors degree in Literature. Teaching has been my life for the last 12 years. I have taught Elementary School, High School and College. Spanish is not just my native language, it is also my love. Teaching people how to communicate properly in Spanish is what I strive for. It is more than teaching single words. It is about giving my students the skills and the confidence to express all of their thoughts.</p>
 				<p class="para">My husband and I live in North Bend with our dog Bailey. I truly enjoy reading, writing and all kinds of art.</p>
                 <p class="para">Mundo (world), Vida (life) and viaje (travel) are my favorite words in Spanish.</p>
 

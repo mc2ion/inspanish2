@@ -102,10 +102,9 @@ function my_lessons(){
 				</div>
                 <div class=\"col-md-10 tech_para\">
 			 	   <h4>Spanish Lessons for Kids</h4>
-					<p class=\"para\">Speaking and listening skills are emphasized in all Spanish classes as students learn to count to 20, 50, 100 and more. These lessons focus on basic greetings, colors, letters, numbers, shapes, seasons, weather and other topics.</p>
-				    <p class=\"para\">Cultural lessons are integrated into each instruction. Songs, games, visuals, art and writing projects make the language as tangible as possible. Class is conducted almost exclusively in Spanish and relies on teacher created materials.</p>
+					<p class=\"para\">We offer private or group lessons in which our focus is providing a fun and enjoyable introduction to the Spanish language. Thru songs, flash cards, games, art and writing projects we will make the language as tangible as possible. Class will be conducted almost exclusively in Spanish.</p>
+				    <p class=\"para\">Our primary goal is to give children the opportunity to learn a new language and culture in a fun and creative environment.</p>
                     <p class=\"para\">We are also running our Spanish Enrichment Program at the YMCA at Snoqualmie Ridge and the YMCA at Hazelwood, in New Castle.</p>
-                    <p class=\"para\">We would love to give your children the opportunity to learn a new language and culture. We can create a custom curriculum to teach private lessons or group lessons. Let’s have fun learning Spanish!</p>
                     <p class=\"para\">For prices and scheduling, <a href=\"contact.php\">contact us</a>.</p>
                 </div>
 			     <div class=\"clearfix\"></div>
@@ -131,7 +130,7 @@ function my_lessons(){
 				</div>
 				<div class=\"col-md-10 tech_para\">
 				    <h4>Spanish Program for Schools</h4>
-					<p class=\"para\">Speaking and listening skills are emphasized in all Spanish classes as students learn to count to 20, 50, 100 and more. These lessons focus on basic greetings, colors, letters, numbers, shapes, seasons, weather and other topics.</p>
+					<p class=\"para\">Speaking and listening skills are emphasized as students learn basic Spanish lessons. We will focus on teaching greetings, colors, letters, numbers, shapes, seasons, weather and other special topics offered in your school curriculum.</p>
 				    <p class=\"para\">Cultural lessons are integrated into each instruction. Songs, games, visuals, art and writing projects make the language as tangible as possible. Class is conducted almost exclusively in Spanish and relies on teacher created materials.</p>
                     <p class=\"para\">We are currently offering our Spanish Programs at:</p>
                     <ul class=\"para\">
@@ -139,8 +138,9 @@ function my_lessons(){
                         <li>Mt. Si Montessori at North Bend, WA</li>
                         <li>North Bend Montessori at North Bend, WA</li>
                         <li>Si View at North Bend, WA</li>
-                        <li>Morning Star Montessori at Snoqualmie, WA</li>
+                        <li>Morningstar Montessori at Snoqualmie Ridge, WA</li>
                         <li>Lifelong Early Learning Center at Snoqualmie, WA</li>
+                        <li>Mountain Valley Montessori at North Bend, WA</li>
                     </ul>
                     <p class=\"para\">For prices and scheduling, <a href=\"contact.php\">contact us</a>.</p>
                 </div>
@@ -156,7 +156,6 @@ function my_lessons(){
 					<p class=\"para\">It's never too late to learn a new language. If you are interested in studying Spanish, we can design a personal curriculum to fit your need. We also offer programs by levels: beginners, intermediate, advance, conversational and reading.</p>
 				    <p class=\"para\">If you are planning on traveling to a Spanish speaking country and want to communicate with proper and effective vocabulary, Spanish for travelers is the program for you. We will teach everything you need to know when you encounter common situations while traveling.</p>
                     <p class=\"para\">Do you need to learn a more technical Spanish for work? Let us know your field and we will structure a personalized lesson plan for you.</p>
-                    <p class=\"para\">We also teach Spanish for doctors and nurses, teachers, lawyers, journalists and writers.</p>
                     <p class=\"para\">For prices and scheduling, <a href=\"contact.php\">contact us</a>.</p>
                 </div>
 				<div class=\"clearfix\"></div>
@@ -171,10 +170,12 @@ function my_lessons(){
 					<p class=\"para\">If you have your own business and would like your staff to be fluent in Spanish (Write and speak), we can design a program to fit the needs of your field. This opportunity is ideal for School Staff and International Companies.</p>
 				    <p class=\"para\">Areas that we can focus on:</p>
                     <ul class=\"para\">
-                        <li>Educational</li>
+                        <li>Education</li>
+                        <li>Legal</li>
                         <li>Hospitality</li>
                         <li>Medical</li>
                         <li>Social workers</li>
+                        <li>Upon request</li>
                     </ul>
                     <p class=\"para\">For prices and scheduling, <a href=\"contact.php\">contact us</a>.</p>
                 </div>
