@@ -48,7 +48,7 @@ include('web/common.php');
     		<div class="main row">		
       			<div class="col-md-8">
 				  <div class="contact-form">
-				  	    <form method="post" action="./_ext/actions.php">
+				  	    <form method="post" action="./_ext/actions.php" enctype="multipart/form-data">
                             <div class="firstpage">
     				            <h2>Careers</h2>
 						    	<div class="col-md-12">

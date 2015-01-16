@@ -32,7 +32,7 @@ if (isset($_POST["add-career"])){
 
 if (isset($_POST["contact"])){
     $en["name"]     = $_POST["name"];
-    $en["mail"]    = $_POST["email"];
+    $en["mail"]     = $_POST["email"];
     $en["userMsg"]  = $_POST["userMsg"];
     
     $result = sendEmail($en, "Your message (Copy)");
