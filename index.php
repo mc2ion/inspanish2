@@ -14,7 +14,7 @@ elseif ($page_name=='about.php') {
 elseif ($page_name=='services.php' || strpos($page_name, 'services.php') === 0) {
 	include $browser_t.'/services.php';
 	}
-elseif ($page_name=='careers.php') {
+elseif (strpos($page_name,'careers.php')=== 0)  {
 	include $browser_t.'/careers.php';
 	}
 elseif (strpos($page_name, "contact.php") === 0) {
